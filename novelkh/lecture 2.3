@@ -1,0 +1,66 @@
+# string formatting
+# put f in front of the quote and put the variables in {} when it is inside the quote
+from re import M
+
+
+lecturers = 3/3 * 100
+print(f"Chris says that {lecturers}% likes Grok worksheets")
+
+# sequence of items 
+# sound as sequences
+# sample at fixed interval and "quantise" relative to some pre-defined precision 
+# image as sequences
+# pixels 
+
+mystring = "Welcome to COMP10001"
+print(mystring[4])
+#indexing - return the single character at a particular location
+#start from 0 so the fourth character is actually the 5th
+
+print(mystring[0:7])
+#goes up to but not including the last number aka 7
+
+print(mystring[3:7])
+
+print(mystring[11:len(mystring)])
+
+print(mystring[:5])
+
+print(mystring[5:])
+
+print(mystring[:])
+
+print(mystring[0:20])
+
+print(mystring[0:10:2])
+
+print(mystring[0:10:3])
+
+print(mystring[5:0:-1])
+
+print(mystring[5:0:-2])
+
+print(mystring[1:-1])
+
+mystring = 'aabbbbcc'
+print(mystring[int(len(mystring)/4):-int(len(mystring)/4)])
+mystring2 = 'aaabbbbbbccc'
+print(mystring2[int(len(mystring2)/4):-int(len(mystring2)/4)])
+
+
+#conditionals
+
+#check if true or not thru bool
+#True or False
+#bool(0) is false
+#bool('') is false (empty string)
+
+#comparison
+#== equality
+#> >= greater greater or equal
+#< <= lesser lesser or equal
+#!= not equal to
+#in is an element of 
+#and - only true when both is true
+#or - true when 1 is true
+#not - the opposite
